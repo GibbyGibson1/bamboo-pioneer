@@ -1,0 +1,84 @@
+body{
+background-color: #E7FFCE;
+}
+.logo{
+width: 25%;
+}
+.logos{
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.linkbar{
+background-color: #FFFFF0;
+display: flex;
+justify-content: space-around;
+padding: 15px;
+font-size: 20px;
+text-align: center;
+border: 3px solid #123456;
+}
+.subtext{
+font-size: 20px;
+}
+.title{
+font-size: 50px;
+color: #123456;
+padding: 30px;
+}
+.firstWorks{
+background-color: beige;
+margin: 0;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+.nurburgring{
+color: #123456;
+width: 40%;
+font-size: 25px;
+padding: 20px;
+}
+.spa{
+color: #123456;
+width: 40%;
+font-size: 25px;
+padding: 20px;
+}
+.cota{
+color: #123456;
+width: 40%;
+font-size: 25px;
+padding: 20px;
+}
+.tracks{
+font-size: 33px;
+}
+.race{
+width: 20%;
+background-color: white;
+}
+@media only screen and (max-width: 900px){
+.logo{
+width: 20%;
+}
+.title{
+text-align: center;
+}
+.nurburgring{
+text-align: center;
+width: 100%;
+}
+.spa{
+text-align: center;
+width: 100%;
+}
+.cota{
+text-align: center;
+width: 100%;
+}
+.linkbar{
+width: 100%;
+}
+}
